@@ -1,6 +1,21 @@
 let hamMenuIcon = document.getElementById("ham-menu");
 let navBar = document.getElementById("nav-bar");
 let navLinks = navBar.querySelectorAll("li");
+const text = document.querySelector("#title");
+
+
+
+
+
+const load = ()=>{
+  setTimeout(()=>{
+    text.textContent = "I am a Full Stack Web Developer"
+  },0);
+}
+
+load();
+setInterval(() => {
+}, 12000);
 
 hamMenuIcon.addEventListener("click", () => {
   navBar.classList.toggle("active");
@@ -103,5 +118,24 @@ function saveFile(e) {
 
 // // Add event listener for scroll
 // window.addEventListener('scroll', highlightNavLink);
+
+const sections = document.querySelectorAll("#home, #about, #skills, #projects, #github, #contact, #footer");
+
+
+// Get all the navigation links
+const navScroll = document.querySelectorAll('#nav-bar a');
+
+// Function to highlight the current section in the navigation menu
+function highlightNavLink() {
+    let index = sections.length;
+
+    while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+    navScroll.forEach(link => link.classList.remove('active'));
+    navScroll[index].classList.add('active');
+}
+
+// Add event listener for scroll
+window.addEventListener('scroll', highlightNavLink);
 
 
