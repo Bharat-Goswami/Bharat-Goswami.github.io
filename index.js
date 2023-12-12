@@ -9,7 +9,7 @@ const text = document.querySelector("#title");
 
 const load = ()=>{
   setTimeout(()=>{
-    text.textContent = "I am a Full Stack Web Developer"
+    text.textContent = "I am a Full Stack Web Developer. "
   },0);
 }
 

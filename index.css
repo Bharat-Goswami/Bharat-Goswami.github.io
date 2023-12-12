@@ -139,18 +139,16 @@ nav ul.active {
    
 }
 
-
 #home {
     width: 100%;
     padding: 8%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 100px;
-    /* background-color: #f5fcff ;  */
+    /* background-color: #f5fcff ; */
     background-image: linear-gradient(to bottom right, #cfdceb, white);
-
-}
+  }
 
 #nav-menu {
     height: 110px;
