@@ -65,6 +65,18 @@ function saveFile(e) {
   localStorage.setItem("portfolioData", JSON.stringify(Formdata))
 }
 
+function toggleTheme() {
+  const themeStyleLink = document.getElementById('theme-style');
+  
+  if (themeStyleLink.getAttribute('href') === 'index.css') {
+      themeStyleLink.setAttribute('href', 'index-dark.css');
+  } else {
+      themeStyleLink.setAttribute('href', 'index.css');
+  }
+}
+
+
+
 // document.addEventListener("DOMContentLoaded", function() {
 //   const form = document.querySelector("#contact-subdiv2 form");
 
