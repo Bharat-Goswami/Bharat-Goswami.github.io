@@ -57,7 +57,7 @@ header {
     background-color: rgb(10, 25, 47);
     /* background-image: linear-gradient(to bottom right, #b4d0f0, white); */
     z-index: 200000;
-    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
 
 
@@ -65,7 +65,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    
 }
 
 nav ul {
@@ -483,13 +483,15 @@ input:checked + label svg.moon {
 
 .skills-card {
     /* background-color: #f5fcff; */
+    background: linear-gradient(120deg, rgb(19, 44, 38), rgb(24, 39, 68));
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid #b8d2f1;
+    /* border: 2px solid #b8d2f1; */
     align-items: center;
     border-radius: 20px;
     padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
 
 .skills-card:hover {
@@ -507,7 +509,7 @@ input:checked + label svg.moon {
 
 .skills-card-name {
     /* background-color: black; */
-    background: linear-gradient(120deg, rgb(24, 39, 68), rgb(19, 44, 38));
+    /* background: linear-gradient(120deg, rgb(24, 39, 68), rgb(19, 44, 38)); */
     color: white;
     float: inline-end;
     padding: 10px 20px;
@@ -546,13 +548,15 @@ input:checked + label svg.moon {
   .skills--section--card {
     display: flex;
     padding: 32px;
-    border: 2px solid #b8d2f1;
+    /* border: 2px solid #b8d2f1; */
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
     border-radius: 10.6px;
-    background: linear-gradient(#40908f, #006b6a);
+    /* background: linear-gradient(#40908f, #006b6a); */
+    background: linear-gradient( #0A192F, #329392);
+    /* background: linear-gradient(120deg, rgb(24, 39, 68), rgb(19, 44, 38));  */
     height: 480px;
     text-overflow: ellipsis;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
@@ -635,6 +639,7 @@ input:checked + label svg.moon {
     border-radius: 20px;
     /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
     backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
 
 .project-image-div {
