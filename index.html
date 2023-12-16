@@ -20,7 +20,7 @@
     <!-- Stylesheet -->
     <!-- <link rel="stylesheet" href="./index.css" /> -->
     <!-- <link rel="stylesheet" href="./index-dark.css" /> -->
-    <link rel="stylesheet" id="theme-style" href="index.css">
+    <link rel="stylesheet" id="theme-style" href="index.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
@@ -34,7 +34,10 @@
     <div id="nav-menu" data-aos="fade-down">
       <header>
         <nav>
-          <a href="#home" id="logo"> Bharat Goswami <hr></a>
+          <a href="#home" id="logo">
+            Bharat Goswami
+            <hr
+          /></a>
           <i class="fas fa-bars" id="ham-menu"></i>
           <ul id="nav-bar">
             <li>
@@ -66,46 +69,144 @@
             </li>
 
             <li>
-              <input type="checkbox" id="darkmode-toggle" onchange="toggleTheme()"/>
-          <label for="darkmode-toggle">
-            <svg version="1.1" class="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-         viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
-      
-            <rect x="152.994" y="58.921" transform="matrix(0.3827 0.9239 -0.9239 0.3827 168.6176 -118.5145)" width="40.001" height="16"/>
-            <rect x="46.9" y="164.979" transform="matrix(0.9239 0.3827 -0.3827 0.9239 71.29 -12.4346)" width="40.001" height="16"/>
-            <rect x="46.947" y="315.048" transform="matrix(0.9239 -0.3827 0.3827 0.9239 -118.531 50.2116)" width="40.001" height="16"/>
-            
-              <rect x="164.966" y="409.112" transform="matrix(-0.9238 -0.3828 0.3828 -0.9238 168.4872 891.7491)" width="16" height="39.999"/>
-            
-              <rect x="303.031" y="421.036" transform="matrix(-0.3827 -0.9239 0.9239 -0.3827 50.2758 891.6655)" width="40.001" height="16"/>
-            
-              <rect x="409.088" y="315.018" transform="matrix(-0.9239 -0.3827 0.3827 -0.9239 701.898 785.6559)" width="40.001" height="16"/>
-            
-              <rect x="409.054" y="165.011" transform="matrix(-0.9239 0.3827 -0.3827 -0.9239 891.6585 168.6574)" width="40.001" height="16"/>
-            <rect x="315.001" y="46.895" transform="matrix(0.9238 0.3828 -0.3828 0.9238 50.212 -118.5529)" width="16" height="39.999"/>
-            <path d="M248,88c-88.224,0-160,71.776-160,160s71.776,160,160,160s160-71.776,160-160S336.224,88,248,88z M248,392
-              c-79.4,0-144-64.6-144-144s64.6-144,144-144s144,64.6,144,144S327.4,392,248,392z"/>
-            <rect x="240" width="16" height="72"/>
-            <rect x="62.097" y="90.096" transform="matrix(0.7071 0.7071 -0.7071 0.7071 98.0963 -40.6334)" width="71.999" height="16"/>
-            <rect y="240" width="72" height="16"/>
-            
-              <rect x="90.091" y="361.915" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -113.9157 748.643)" width="16" height="71.999"/>
-            <rect x="240" y="424" width="16" height="72"/>
-            
-              <rect x="361.881" y="389.915" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 397.8562 960.6281)" width="71.999" height="16"/>
-            <rect x="424" y="240" width="72" height="16"/>
-            <rect x="389.911" y="62.091" transform="matrix(0.7071 0.7071 -0.7071 0.7071 185.9067 -252.6357)" width="16" height="71.999"/>
-      </svg>
-           <svg version="1.1" class="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 49.739 49.739" style="enable-background:new 0 0 49.739 49.739;" xml:space="preserve">
-           <path d="M25.068,48.889c-9.173,0-18.017-5.06-22.396-13.804C-3.373,23.008,1.164,8.467,13.003,1.979l2.061-1.129l-0.615,2.268
+              <input
+                type="checkbox"
+                id="darkmode-toggle"
+                onchange="toggleTheme()"
+              />
+              <label for="darkmode-toggle" class="theme">
+                <svg
+                  version="1.1"
+                  class="sun"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 496 496"
+                  style="enable-background: new 0 0 496 496"
+                  xml:space="preserve"
+                >
+                  <rect
+                    x="152.994"
+                    y="58.921"
+                    transform="matrix(0.3827 0.9239 -0.9239 0.3827 168.6176 -118.5145)"
+                    width="40.001"
+                    height="16"
+                  />
+                  <rect
+                    x="46.9"
+                    y="164.979"
+                    transform="matrix(0.9239 0.3827 -0.3827 0.9239 71.29 -12.4346)"
+                    width="40.001"
+                    height="16"
+                  />
+                  <rect
+                    x="46.947"
+                    y="315.048"
+                    transform="matrix(0.9239 -0.3827 0.3827 0.9239 -118.531 50.2116)"
+                    width="40.001"
+                    height="16"
+                  />
+
+                  <rect
+                    x="164.966"
+                    y="409.112"
+                    transform="matrix(-0.9238 -0.3828 0.3828 -0.9238 168.4872 891.7491)"
+                    width="16"
+                    height="39.999"
+                  />
+
+                  <rect
+                    x="303.031"
+                    y="421.036"
+                    transform="matrix(-0.3827 -0.9239 0.9239 -0.3827 50.2758 891.6655)"
+                    width="40.001"
+                    height="16"
+                  />
+
+                  <rect
+                    x="409.088"
+                    y="315.018"
+                    transform="matrix(-0.9239 -0.3827 0.3827 -0.9239 701.898 785.6559)"
+                    width="40.001"
+                    height="16"
+                  />
+
+                  <rect
+                    x="409.054"
+                    y="165.011"
+                    transform="matrix(-0.9239 0.3827 -0.3827 -0.9239 891.6585 168.6574)"
+                    width="40.001"
+                    height="16"
+                  />
+                  <rect
+                    x="315.001"
+                    y="46.895"
+                    transform="matrix(0.9238 0.3828 -0.3828 0.9238 50.212 -118.5529)"
+                    width="16"
+                    height="39.999"
+                  />
+                  <path
+                    d="M248,88c-88.224,0-160,71.776-160,160s71.776,160,160,160s160-71.776,160-160S336.224,88,248,88z M248,392
+              c-79.4,0-144-64.6-144-144s64.6-144,144-144s144,64.6,144,144S327.4,392,248,392z"
+                  />
+                  <rect x="240" width="16" height="72" />
+                  <rect
+                    x="62.097"
+                    y="90.096"
+                    transform="matrix(0.7071 0.7071 -0.7071 0.7071 98.0963 -40.6334)"
+                    width="71.999"
+                    height="16"
+                  />
+                  <rect y="240" width="72" height="16" />
+
+                  <rect
+                    x="90.091"
+                    y="361.915"
+                    transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -113.9157 748.643)"
+                    width="16"
+                    height="71.999"
+                  />
+                  <rect x="240" y="424" width="16" height="72" />
+
+                  <rect
+                    x="361.881"
+                    y="389.915"
+                    transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 397.8562 960.6281)"
+                    width="71.999"
+                    height="16"
+                  />
+                  <rect x="424" y="240" width="72" height="16" />
+                  <rect
+                    x="389.911"
+                    y="62.091"
+                    transform="matrix(0.7071 0.7071 -0.7071 0.7071 185.9067 -252.6357)"
+                    width="16"
+                    height="71.999"
+                  />
+                </svg>
+                <svg
+                  version="1.1"
+                  class="moon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 49.739 49.739"
+                  style="enable-background: new 0 0 49.739 49.739"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M25.068,48.889c-9.173,0-18.017-5.06-22.396-13.804C-3.373,23.008,1.164,8.467,13.003,1.979l2.061-1.129l-0.615,2.268
              c-1.479,5.459-0.899,11.25,1.633,16.306c2.75,5.493,7.476,9.587,13.305,11.526c5.831,1.939,12.065,1.492,17.559-1.258v0
              c0.25-0.125,0.492-0.258,0.734-0.391l2.061-1.13l-0.585,2.252c-1.863,6.873-6.577,12.639-12.933,15.822
              C32.639,48.039,28.825,48.888,25.068,48.889z M12.002,4.936c-9.413,6.428-12.756,18.837-7.54,29.253
              c5.678,11.34,19.522,15.945,30.864,10.268c5.154-2.582,9.136-7.012,11.181-12.357c-5.632,2.427-11.882,2.702-17.752,0.748
-             c-6.337-2.108-11.473-6.557-14.463-12.528C11.899,15.541,11.11,10.16,12.002,4.936z"/></svg>
-          </label>
-              </li>
+             c-6.337-2.108-11.473-6.557-14.463-12.528C11.899,15.541,11.11,10.16,12.002,4.936z"
+                  />
+                </svg>
+              </label>
+            </li>
           </ul>
         </nav>
       </header>
@@ -143,10 +244,14 @@
         Skills <i class="fa-solid fa-screwdriver-wrench"></i>
       </p>
 
-      <div class="skills--section" >
+      <div class="skills--section">
         <h2 class="skills--section--heading">My Expertise</h2>
         <div class="skills--section--container">
-          <div class="skills--section--card" data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            class="skills--section--card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div class="skills--section--img">
               <img src="./public/product-chain-1.png" alt="Product Chain" />
             </div>
@@ -161,7 +266,11 @@
               </p>
             </div>
           </div>
-          <div class="skills--section--card" data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            class="skills--section--card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div class="skills--section--img">
               <img src="./public/feather-pen-2.png" alt="Product Chain" />
             </div>
@@ -175,7 +284,11 @@
               </p>
             </div>
           </div>
-          <div class="skills--section--card" data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            class="skills--section--card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div class="skills--section--img">
               <img src="./public/feather-pen-1.png" alt="Product Chain" />
             </div>
@@ -188,8 +301,12 @@
               </p>
             </div>
           </div>
-          <div class="skills--section--card" data-aos="zoom-in" data-aos-duration="1000">
-            <div class="skills--section--img" >
+          <div
+            class="skills--section--card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div class="skills--section--img">
               <img src="./public/tag-1.png" alt="Product Chain" />
             </div>
             <div class="skills--section--card--content">
@@ -292,7 +409,7 @@
               alt=""
             />
           </div>
-  
+
           <div
             class="project-info-div"
             data-aos="fade-down"
@@ -306,11 +423,11 @@
               application like login/signup, cart and filtering the beauty
               products with its category.
             </p>
-          
+
             <p class="project-tech-stack">
               <span>Tech Stacks :- HTML | CSS | JavaScript | JSON </span>
             </p>
-            <hr>
+            <hr />
             <div class="links-div">
               <div class="githubBtn">
                 <a
@@ -343,9 +460,8 @@
             </div>
           </div>
         </div>
-  
+
         <div class="project-card">
-  
           <div
             class="project-image-div"
             data-aos="fade-up"
@@ -375,7 +491,7 @@
             <p class="project-tech-stack">
               <span>Tech Stacks :- HTML | CSS | JavaScript | JSON</span>
             </p>
-            <hr>
+            <hr />
             <div class="links-div">
               <div class="githubBtn">
                 <a
@@ -408,7 +524,7 @@
             </div>
           </div>
         </div>
-  
+
         <div class="project-card">
           <div
             class="project-image-div"
@@ -423,7 +539,7 @@
               alt=""
             />
           </div>
-  
+
           <div
             class="project-info-div"
             data-aos="fade-down"
@@ -431,15 +547,15 @@
           >
             <p class="project-title">TaxTim</p>
             <p class="project-description">
-              TaxTim simplifies tax filing for individuals and businesses through
-              an easy online platform. It uses a friendly Q&A format, works on
-              various devices, and aims to make taxes easier to understand and
-              complete.
+              TaxTim simplifies tax filing for individuals and businesses
+              through an easy online platform. It uses a friendly Q&A format,
+              works on various devices, and aims to make taxes easier to
+              understand and complete.
             </p>
             <p class="project-tech-stack">
               <span>Tech Stacks :- CSS | React.js | Chakra UI</span>
             </p>
-            <hr>
+            <hr />
             <div class="links-div">
               <div class="githubBtn">
                 <a
@@ -472,7 +588,7 @@
             </div>
           </div>
         </div>
-  
+
         <div class="project-card">
           <div
             class="project-image-div"
@@ -487,7 +603,7 @@
               alt=""
             />
           </div>
-  
+
           <div
             class="project-info-div"
             data-aos="fade-down"
@@ -495,15 +611,15 @@
           >
             <p class="project-title">TaxTim</p>
             <p class="project-description">
-              TaxTim simplifies tax filing for individuals and businesses through
-              an easy online platform. It uses a friendly Q&A format, works on
-              various devices, and aims to make taxes easier to understand and
-              complete.
+              TaxTim simplifies tax filing for individuals and businesses
+              through an easy online platform. It uses a friendly Q&A format,
+              works on various devices, and aims to make taxes easier to
+              understand and complete.
             </p>
             <p class="project-tech-stack">
               <span>Tech Stacks :- CSS | React.js | Chakra UI</span>
             </p>
-            <hr>  
+            <hr />
             <div class="links-div">
               <div class="githubBtn">
                 <a
@@ -540,7 +656,9 @@
     </div>
 
     <div id="github">
-      <p id="github-name" data-aos="fade-up">Github Stats <i class="fa-brands fa-github"></i></p>
+      <p id="github-name" data-aos="fade-up">
+        Github Stats <i class="fa-brands fa-github"></i>
+      </p>
 
       <div class="react-activity-calendar" data-aos="zoom-in">
         <div id="github-subdiv1" data-aos="zoom-in">
@@ -622,96 +740,72 @@
       <div id="contact-div" data-aos="fade-up">
         <div id="contact-subdiv2">
           <div class="container">
-            <form action="">
-              <div class="row">
-                <div class="col-25">
-                  <label for="fname">Your Name</label>
-                </div>
-                <div class="col-75">
-                  <input
-                    type="text"
-                    id="fname"
-                    name="firstname"
-                    placeholder="Your name.."
+            <div id="contact-subdiv1">
+              <p id="contact-email">
+                Email : <br />
+                bharatgoswami2112@gmail.com
+              </p>
+              <p id="contact-phone">
+                Phone :<br />
+                +91 9987823545
+              </p>
+              <div id="footer-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/bharat.goswami.359126">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/bharatgoswami._/">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/bharat-goswami/">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div id="contact-subdiv1-a">  
+                <a
+                  id="contact-github"
+                  href="https://github.com/bharat-goswami"
+                  target="_blank"
+                >
+                  <img
+                    id="githubimage"
+                    width="18%"
+                    src="./public/skillsIcon/github.png"
+                    alt=""
                   />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-25">
-                  <label for="email">E-mail</label>
-                </div>
-                <div class="col-75">
-                  <input
-                    type="text"
-                    id="email"
-                    name="lastname"
-                    placeholder="E-mail..."
+                </a>
+        
+                <a
+                  id="contact-linkedin"
+                  href="https://www.linkedin.com/in/bharat-goswami/"
+                  target="_blank"
+                >
+                  <img
+                    id="portfolioimage"
+                    width="18%"
+                    src="data:image/png;base64,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"
+                    alt=""
                   />
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-25">
-                  <label for="subject">Message</label>
-                </div>
-                <div class="col-75">
-                  <textarea
-                    id="subject"
-                    name="subject"
-                    placeholder="Write something.."
-                    style="height: 200px"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="submit-btn">
-                  <input id="submit" type="submit" value="Submit" />
-                </div>
-              </div>
-            </form>
+                </a>
+              </div> -->
+            </div>
           </div>
         </div>
         <div id="contact-img">
-            <img src="./public/developer.gif" alt="developer">
+          <img src="./public/developer.gif" alt="developer" />
         </div>
-      </div>
-    </div>
-    <div id="contact-subdiv1">
-      <p id="contact-email">
-        Email : <br />
-        bharatgoswami2112@gmail.com
-      </p>
-      <p id="contact-phone">
-        Phone :<br />
-        +91 9987823545
-      </p>
-
-      <div id="contact-subdiv1-a">
-        <a
-          id="contact-github"
-          href="https://github.com/bharat-goswami"
-          target="_blank"
-        >
-          <img
-            id="githubimage"
-            width="18%"
-            src="./public/skillsIcon/github.png"
-            alt=""
-          />
-        </a>
-
-        <a
-          id="contact-linkedin"
-          href="https://www.linkedin.com/in/bharat-goswami/"
-          target="_blank"
-        >
-          <img
-            id="portfolioimage"
-            width="18%"
-            src="data:image/png;base64,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"
-            alt=""
-          />
-        </a>
       </div>
     </div>
 
@@ -743,7 +837,7 @@
             </li>
           </ul>
         </div>
-        <div id="footer-icon" >
+        <div id="footer-icon">
           <ul>
             <li>
               <a href="https://www.facebook.com/bharat.goswami.359126">
@@ -754,20 +848,19 @@
               <a href="https://www.instagram.com/bharatgoswami._/">
                 <i class="fa-brands fa-instagram"></i>
               </a>
-              </li>
+            </li>
             <li>
               <a href="#">
                 <i class="fa-brands fa-twitter"></i>
               </a>
-              
             </li>
             <li>
               <a href="https://www.linkedin.com/in/bharat-goswami/">
                 <i class="fa-brands fa-linkedin"></i>
-              </a> 
+              </a>
             </li>
           </ul>
-        </div >
+        </div>
         <!-- <div class="footer--social--icon">
           <ul>
             <li>
