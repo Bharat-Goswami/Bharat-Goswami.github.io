@@ -558,7 +558,7 @@ input:checked + label svg.moon {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
   }
   .skills--section--card:hover {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    box-shadow: #2ef0e366 0px 5px, #2ef0af4d 0px 10px, #2ef0d333 0px 15px, #2ef0c31a 0px 20px, #2ef0af0d 0px 25px;
   }
   .skills--section--card:hover .skills--section--description {
     color: var(--darkblue);
