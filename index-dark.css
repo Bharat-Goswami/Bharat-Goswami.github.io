@@ -85,6 +85,7 @@ nav a#logo {
     color: #006b6a;
     font-weight: 700;
     font-size: 28px;
+    text-shadow: 7px 9px 15px black;
 }
 
 nav ul a {
@@ -283,6 +284,7 @@ input:checked + label svg.moon {
     font-size: clamp(30px, 8vw, 50px);
     color: white;
     /* text-shadow: 7px 6px 7px #a0b7d3; */
+    text-shadow: 7px 9px 15px black;
 }
 
 #title {
@@ -569,7 +571,7 @@ input:checked + label svg.moon {
     gap: 13.3px;
     border-radius: 10.6px;
     background: #fff;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .skills--section--card--content {
     display: flex;
@@ -1038,7 +1040,7 @@ input[type=submit]:hover {
     height: 50px;
     text-align: center;
     line-height: 55px;
-    background: #333;
+    background: #374144;
     border-radius: 50%;
     font-size: 30px;
     color: #fff;
