@@ -469,6 +469,7 @@ nav ul.active {
 
 .skills-card {
     /* background-color: #f5fcff; */
+    background: linear-gradient(#fff, #f5fcff);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -476,6 +477,7 @@ nav ul.active {
     align-items: center;
     border-radius: 20px;
     padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
 
 .skills-card:hover {
@@ -538,6 +540,7 @@ nav ul.active {
     flex: 1 0 0;
     border-radius: 10.6px;
     background-color: #f5fcff;
+    /* background: linear-gradient(#fff, #f5fcff); */
     height: 480px;
     text-overflow: ellipsis;
   }
@@ -612,12 +615,14 @@ nav ul.active {
     padding: 30px;
     border: 2px solid #006b6a;
     background-color: #f5fcff;
+    /* background: linear-gradient(#fff, #d0eefa); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
     
 }
 
