@@ -279,7 +279,7 @@ nav ul.active {
     font-size: clamp(20px, 5vw, 30px);
     color: #5e3bee;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #2d8584;
+    border-right: .15em solid #5e3bee;
     /* letter-spacing: .15em; Adjust as needed */
     white-space: nowrap;
     animation: 
@@ -289,13 +289,13 @@ nav ul.active {
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 90% }
+    to { width: 75% }
   }
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #2d8584; }
+    50% { border-color: #5e3bee; }
   }
 
 #home p:nth-child(4) {
@@ -1215,29 +1215,52 @@ input[type=submit]:hover {
 
     header {
         padding: 2rem 3rem;
+        /* width: 100px; */
     }
+
 
     nav ul {
         top: 65.18px;
         height: calc(100vh - 65.18px);
     }
 
+    #nav-menu {
+        /* height: px; */
+        position: fixed;
+        width: 360px;
+        background-color: ffff;
+        z-index: 20000;
+    }
     
     #home {
-        width: 90%;
+        width: 100%;
+        height: 500px;
        flex-direction: column;
     }
 
     #info-div {
-        width: 90%;
-        text-align: center;
+        width: 100%;
+        text-align: start;
         margin: auto;
     }
-
+    #ham-menu {
+        font-size: 2rem;
+        color: #006b6a;
+    }
     #myname,
-    #name,
+    #name {
+        text-align: start;
+        margin: 0%;
+    }
     #title {
-        text-align: center;
+        text-align: start;
+        font-size: 20px
+    }
+    #info-div p {
+        width: 270px;}
+
+    .hero--section--img{
+      visibility: hidden;
     }
 
     #Home_subdiv1 {
@@ -1245,6 +1268,7 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 0px;
     }
 
     #Home_subdiv2 {
@@ -1252,6 +1276,9 @@ input[type=submit]:hover {
 
     }
 
+    #resume-button-2{
+        width: 200px;
+    }
     #about_main_subdiv {
         flex-direction: column;
         align-items: center;
@@ -1268,14 +1295,67 @@ input[type=submit]:hover {
         height: auto;
         margin-top: 30px;
     }
-
-    #skills_subdiv {
-        grid-template-columns: repeat(1, 1fr);
+    #skills {
+        padding-top: 10px;
+        
     }
 
+    #skills-title {
+        padding-top: 5px;
+        margin-bottom:5px
+    }
+
+    #skills_subdiv {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+    .skills--section--container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .skills--section--card {
+        display: flex;
+        padding: 12px;
+        border: 2px solid #b8d2f1;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex: 1 0 0;
+        border-radius: 10.6px;
+        background-color: #f5fcff;
+        /* background: linear-gradient(#fff, #f5fcff); */
+        height: 300px;
+        text-overflow: ellipsis;
+    }
+    .skills--section--description {
+       visibility: hidden;
+    }
+    .skills-card {
+        /* background-color: #f5fcff; */
+        background: linear-gradient(#fff, #f5fcff);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 2px solid #b8d2f1;
+        align-items: center;
+        border-radius: 20px;
+        padding: 10px 13px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #all-projects {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
     .project-card {
         flex-direction: column;
         height: auto;
+        width: auto;
     }
 
     .project-image-div {
@@ -1312,6 +1392,43 @@ input[type=submit]:hover {
         width: 80%;
         padding: 20px;
     }
+    .footer--link--container {
+        visibility: hidden;
+        width: 100px;
+    }
+    #contact-email, #contact-phone {
+        color: #ccc;
+        font-size: 16px;
+        padding: 20px;
+    }
+    #contact-img{
+        margin-top: 10px;
+        width: 350px;
+    }
+    #footer-icon {
+        margin-left: 80px;
+    }
+    .footer--container {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #f5fcff;
+        align-items: center;
+        align-self: stretch;
+    }
+    .footer--container {
+        display: flex;
+        padding: 106.667px 85.333px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #f5fcff;
+        align-items: center;
+        align-self: stretch;
+    }
+    .footer--social--icon{
+        visibility: hidden;
+    }
 
 }
 
@@ -1338,6 +1455,7 @@ input[type=submit]:hover {
         text-align: center;
         margin: auto;
     }
+    
 
     #myname,
     #name,
@@ -1549,6 +1667,7 @@ input[type=submit]:hover {
 
     header {
         padding: 2.2rem 5rem;
+        width: 370px;
     }
 
     #user-detail-intro {
