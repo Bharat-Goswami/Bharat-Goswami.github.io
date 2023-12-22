@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("./public/blue_abstract_lines_2.jpg");
+    background-image: url("./public/vivid-blurred-colorful-background.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +51,7 @@ header {
     position: fixed;
     width: 100%;
     padding: 2rem 2.5rem;
-    background-color: #08063cb0;
+    background-color: #ffffff;
     z-index: 200000;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     backdrop-filter: blur(20px);
@@ -152,7 +152,7 @@ nav ul.active {
     color: white;
 }
 
-#resume-link-2:hover{
+#resume-link-2:hover {
     animation: btn-primary .7s cubic-bezier(.25,.46,.45,.94) both;
     color: #5e3bee;
     background-color: white;
@@ -272,7 +272,7 @@ nav ul.active {
 }
 
 #aboutme-title span {
-    color: #5e3bed;
+    color: #5FF2D1;
 }
 
 #img {
@@ -350,14 +350,14 @@ nav ul.active {
 }
 
 .skills-card {
-    background: linear-gradient(120deg, rgb(19, 44, 38), rgb(24, 39, 68));
+    background: linear-gradient(180deg,rgb(255 255 255), rgb(191 155 245));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     padding: 20px 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .skills-card:hover {
@@ -557,7 +557,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #00b8b5;
+    background-color: #5FF2D1;
     color: black;
     padding: 12px 20px;
     border: none;
@@ -572,8 +572,7 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background: linear-gradient(120deg, rgb(19, 44, 38), rgb(24, 39, 68));
-    backdrop-filter: blur(10px);
+    background-color: #0A192F;
     padding: 20px;
 }
 
@@ -594,12 +593,6 @@ input[type=submit]:hover {
     content: "";
     display: table;
     clear: both;
-}
-
-.contact-svg{
-    display: flex;;
-    margin: auto;
-    justify-content: center;
 }
 
 #contact-email,
@@ -686,63 +679,6 @@ input[type=submit]:hover {
     color: #5FF2D1;
 }
 
-#footer-icon{
-    margin-left: 100px;
-  }
-  #footer-icon ul{
-    /* margin: 0;
-    padding: 0; */
-    display: flex;
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%; */
-    transform: translate(-30%, -30%);
-    padding: 10px;
-  }
-
-  #footer-icon ul li {
-    list-style: none;
-    margin: 0 10px
-  }
-
-  #footer-icon ul li a {
-    position: relative; 
-    display: block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 55px;
-    background: #374144;
-    border-radius: 50%;
-    font-size: 30px;
-    color: #fff;
-    transition: .5s;
-  }
-
-  #footer-icon ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #5FF2D1 ;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
-  }
-  
-  #footer-icon ul li a:hover::before {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px #5FF2D1;
-  }
-  
-  #footer-icon ul li a :nth-child(1):hover {
-    color: #5FF2D1;
-    /* box-shadow: 0 0 5px #ffee10; */
-    text-shadow: 0 0 5px #5FF2D1;
-  }
 
 
 
