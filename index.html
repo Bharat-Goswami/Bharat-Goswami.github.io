@@ -23,10 +23,21 @@
     <link rel="icon" href="./public/Bharat-6.png" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("1qe4CrCLCldF4RRGS");
+   })();
+</script>
   </head>
 
   <body>
+    <div id="tostBox"></div>
     <div id="nav-menu" data-aos="fade-down">
+      
       <header>
         <nav>
           <a href="#home" id="logo"> Bharat Goswami <hr></a>
@@ -560,7 +571,7 @@
 
         <div id="contact-subdiv2">
           <div class="container">
-            <form action="">
+            <form action="" id="contactForm">
               <div class="row">
                 <div class="col-25">
                   <label for="fname">Your Name</label>

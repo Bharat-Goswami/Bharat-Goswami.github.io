@@ -19,6 +19,92 @@ body {
 html {
     font-size: 62.5%;
 }
+/* Tost box */
+#tostBox{
+    z-index: 999;
+
+position: fixed; /* Change from absolute to fixed */
+  bottom: 15px;   /* Change from top to bottom */
+  right: 15px; 
+transform: translateX(0); 
+display: flex;
+align-items: center; 
+flex-direction: column;
+overflow: hidden;
+padding: 20px;
+}
+.tost{
+z-index: 1000; 
+width: 400px;
+height: 80px;
+background: #fff;
+font-weight: 500;
+margin: 15px 0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+display: flex;
+align-items: center;
+position: relative;
+}
+.tost i{
+margin: 0 20px;
+font-size: 35px;
+color: red;
+padding-right: 10px;
+border-right: 1px solid rgb(205, 203, 203);
+}
+.tost::after{
+content:"";
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 5px;
+background-color: red;
+animation: anim 2s linear forwards;
+}
+@keyframes anim {
+100%{
+    width: 0;
+}
+}
+
+.sucess{
+z-index: 1000; 
+width: 400px;
+height: 80px;
+background: #fff;
+font-weight: 500;
+margin: 15px 0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+display: flex;
+align-items: center;
+position: relative;
+}
+.sucess i{
+margin: 0 20px;
+font-size: 35px;
+color: rgb(19, 196, 3);
+padding-right: 10px;
+border-right: 1px solid rgb(205, 203, 203);
+}
+.sucess::after{
+content:"";
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 5px;
+background-color:  rgb(19, 196, 3);
+animation: anim 3s linear forwards;
+}
+@keyframes anim {
+100%{
+    width: 0;
+}
+}
+
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
